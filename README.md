@@ -56,11 +56,19 @@ O projeto utiliza **npm workspaces** para gerenciar as dependências de forma ce
   <table>
     <tr>
       <td align="center"><b>Dashboard</b></td>
-      <td align="center"><b>Grupos e Social</b></td>
+      <td align="center"><b>Grupos Social</b></td>
     </tr>
     <tr>
-      <td><img src="./docs/screenshots/dashboard.png" width="300" alt="Dashboard" /></td>
-      <td><img src="./docs/screenshots/social.png" width="300" alt="Social" /></td>
+      <td><img src="./docs/screenshots/dashboard.png" width="350" alt="Dashboard" /></td>
+      <td><img src="./docs/screenshots/social.png" width="350" alt="Social" /></td>
+    </tr>
+    <tr>
+      <td align="center"><b>Diário de Treinos</b></td>
+      <td align="center"><b>Perfil e Conquistas</b></td>
+    </tr>
+    <tr>
+      <td><img src="./docs/screenshots/workouts.png" width="350" alt="Treinos" /></td>
+      <td><img src="./docs/screenshots/profile.png" width="350" alt="Perfil" /></td>
     </tr>
   </table>
 </div>
