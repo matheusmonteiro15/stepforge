@@ -1,0 +1,32 @@
+services:
+  # PostgreSQL Database
+  - type: pserv
+    name: stepforge-db
+    env: docker
+    plan: free
+    region: oregon
+    databaseName: stepforge
+    databaseUser: stepforge_user
+
+  # Backend API
+  - type: web
+    name: stepforge-api
+    env: node
+    region: oregon
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm run start:prod
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DATABASE_URL
+        fromDatabase:
+          name: stepforge-db
+          property: connectionString
+      - key: JWT_SECRET
+        generateValue: true
+      - key: JWT_EXPIRATION
+        value: 7d
+      - key: PORT
+        value: 3000
+    autoDeploy: true

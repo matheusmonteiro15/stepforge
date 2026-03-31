@@ -1,0 +1,36 @@
+{
+  "name": "stepforge",
+  "version": "1.0.0",
+  "private": true,
+  "description": "StepForge - Fitness app with React Native (Android), React PWA (iPhone), and NestJS backend",
+  "workspaces": [
+    "backend",
+    "mobile",
+    "web",
+    "shared"
+  ],
+  "scripts": {
+    "dev:backend": "cd backend && npm run start:dev",
+    "dev:web": "cd web && npm run dev",
+    "dev:mobile": "cd mobile && npm start",
+    "build:backend": "cd backend && npm run build",
+    "build:web": "cd web && npm run build",
+    "build:mobile": "cd mobile && cd android && .\\gradlew assembleRelease",
+    "install:all": "npm install && npm install --workspaces",
+    "clean": "rm -rf node_modules backend/node_modules mobile/node_modules web/node_modules shared/node_modules"
+  },
+  "keywords": [
+    "fitness",
+    "react-native",
+    "react",
+    "pwa",
+    "nestjs",
+    "postgresql"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
