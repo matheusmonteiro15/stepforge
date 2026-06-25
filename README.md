@@ -1,16 +1,16 @@
-# StepForge 🏋️‍♂️⚔️
+# StepForge 🏋️‍♂️
 
 > [!WARNING]
 > **🚧 Projeto em Desenvolvimento (Work in Progress)**
 > Este aplicativo ainda está sendo construído. Algumas telas e funcionalidades podem estar incompletas ou em fase de testes.
 
-Um aplicativo inovador de acompanhamento de treinos que mistura a rotina de exercícios com elementos de gamificação e estatísticas de RPG! Acompanhe seu progresso de forma visual e intuitiva com gráficos de radar e gerencie suas rotinas de treinamento.
+Um aplicativo completo e intuitivo para acompanhamento de treinos! Acompanhe seu progresso de forma visual com gráficos de radar e gerencie suas rotinas de exercícios de forma eficiente.
 
 ## 🌟 Funcionalidades
 
 - **Gerenciamento de Treinos:** Crie, edite e acompanhe suas rotinas de exercícios diários.
 - **Treino Ativo:** Interface focada durante a execução do seu treino para marcação de séries e progresso.
-- **Estatísticas em Radar (RPG):** Visualize seus pontos fortes e evolução física como se fossem atributos de um personagem de jogo.
+- **Estatísticas em Radar:** Visualize sua evolução física e o equilíbrio dos seus treinos através de gráficos de radar avançados.
 - **Autenticação:** Sistema de login seguro para manter seus dados salvos.
 - **Perfil do Usuário:** Gerenciamento das suas preferências e acompanhamento de dados.
 
